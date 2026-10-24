@@ -7,7 +7,7 @@ Deploy a production-style two-tier application across separate frontend and back
 - [Application Hosting and Access Overview](#application-hosting-and-access-overview)
 - [Architecture Diagram](#architecture-diagram)
 - [Task Board AWS Architecture: Components, Roles, and Network Ports Explanation](#task-board-aws-architecture-components-roles-and-network-ports-explanation)
-- [Implementation Screenshot Step by Step](#implementation-screenshot-step-by-step)
+- [Implementation Screenshot Step by Step](#implementation-screenshot-step-by-step-)
 - [Security Groups](#security-groups)
 - [EC2 Instance](#ec2-instance)
 - [AMI (Golden Images)](#ami-golden-images)
