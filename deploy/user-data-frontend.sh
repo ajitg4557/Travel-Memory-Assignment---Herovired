@@ -12,7 +12,7 @@
 #  >>> CHANGE THIS: Backend ALB DNS name (EC2 -> Load Balancers -> taskboard-be-alb)
 #      example: internal-taskboard-be-alb-123456789.ap-south-1.elb.amazonaws.com
 # =====================================================================
-BACKEND_HOST="<BACKEND_ALB_DNS>"
+BACKEND_HOST="internal-taskboard-be-alb-1234567890.ap-south-1.elb.amazonaws.com"
 
 set -euxo pipefail
 exec > >(tee -a /var/log/taskboard-user-data.log) 2>&1   # log for debugging
