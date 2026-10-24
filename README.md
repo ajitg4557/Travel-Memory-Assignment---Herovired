@@ -2,6 +2,24 @@
 
 Deploy a production-style two-tier application across separate frontend and backend EC2 instances. Connect the backend to MongoDB Atlas using a secure connection string, place dedicated load balancers and Auto Scaling Groups in front of each tier, and demonstrate the complete end-to-end flow with live testing.
 
+## Table of Contents
+
+- [Application Hosting and Access Overview](#application-hosting-and-access-overview)
+- [Architecture Diagram](#architecture-diagram)
+- [Task Board AWS Architecture: Components, Roles, and Network Ports Explanation](#task-board-aws-architecture-components-roles-and-network-ports-explanation)
+- [Implementation Screenshot Step by Step](#implementation-screenshot-step-by-step)
+- [Security Groups](#security-groups)
+- [EC2 Instance](#ec2-instance)
+- [AMI (Golden Images)](#ami-golden-images)
+- [Launch Templates](#launch-templates)
+- [Target Groups](#target-groups)
+- [Load Balancers](#load-balancers)
+- [Auto Scaling Groups](#auto-scaling-groups)
+- [Mongo DB](#mongo-db)
+- [Demo Proof 1](#demo-proof-1)
+- [Demo Proof 2](#demo-proof-2)
+- [Demo Proof 3](#demo-proof-3)
+
 ---
 # Application Hosting and Access Overview
 
